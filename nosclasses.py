@@ -32,7 +32,6 @@ class Playlist:
     def nommer(self,name):
         self.nom=name
         
-
 class deezer_playlist(Playlist):#playlists qui existent deja sur deezer (besoin d'un id)
     def __init__(self,id_, nom=" "):
         super().__init__(nom=nom)
